@@ -1,0 +1,14 @@
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.csproj.AssemblyReference.cache
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.Properties.Resources.resources
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.csproj.GenerateResource.cache
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.csproj.CoreCompileInputs.cache
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.Form1.resources
+C:\Users\raduc\source\repos\Proiect10\Proiect10\bin\Debug\Proiect10.exe.config
+C:\Users\raduc\source\repos\Proiect10\Proiect10\bin\Debug\Proiect10.exe
+C:\Users\raduc\source\repos\Proiect10\Proiect10\bin\Debug\Proiect10.pdb
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.exe
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.pdb
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.Clienti.resources
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.Impozite.resources
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.Proprietate.resources
+C:\Users\raduc\source\repos\Proiect10\Proiect10\obj\Debug\Proiect10.FImpoziteAct.resources

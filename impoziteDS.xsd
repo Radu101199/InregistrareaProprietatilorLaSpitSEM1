@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="impoziteDS" targetNamespace="http://tempuri.org/impoziteDS.xsd" xmlns:mstns="http://tempuri.org/impoziteDS.xsd" xmlns="http://tempuri.org/impoziteDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database3ConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database3ConnectionString2 (Settings)" PropertyReference="ApplicationSettings.Proiect10.Properties.Settings.GlobalReference.Default.Database3ConnectionString2" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_TotalTableAdapter" GeneratorDataComponentClassName="View_TotalTableAdapter" Name="View_Total" UserDataComponentName="View_TotalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Database3ConnectionString2 (Settings)" DbObjectName="View_Total" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT IdImpozit, Anul, NumeClient, Total, Nrc FROM View_Total</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Anul" DataSetColumn="Anul" />
+              <Mapping SourceColumn="NumeClient" DataSetColumn="NumeClient" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="Nrc" DataSetColumn="Nrc" />
+              <Mapping SourceColumn="IdImpozit" DataSetColumn="IdImpozit" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_ContinutImpozitTableAdapter" GeneratorDataComponentClassName="View_ContinutImpozitTableAdapter" Name="View_ContinutImpozit" UserDataComponentName="View_ContinutImpozitTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Database3ConnectionString2 (Settings)" DbObjectName="View_ContinutImpozit" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT IdTipProprietate, ImpozitAnual, IdContinut, Nrc, Valoare, SpImagine, IdImpozit FROM View_ContinutImpozit</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ImpozitAnual" DataSetColumn="ImpozitAnual" />
+              <Mapping SourceColumn="Nrc" DataSetColumn="Nrc" />
+              <Mapping SourceColumn="Valoare" DataSetColumn="Valoare" />
+              <Mapping SourceColumn="SpImagine" DataSetColumn="SpImagine" />
+              <Mapping SourceColumn="IdImpozit" DataSetColumn="IdImpozit" />
+              <Mapping SourceColumn="IdContinut" DataSetColumn="IdContinut" />
+              <Mapping SourceColumn="IdTipProprietate" DataSetColumn="IdTipProprietate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="impoziteDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="impoziteDS" msprop:Generator_UserDSName="impoziteDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_Total" msprop:Generator_TableClassName="View_TotalDataTable" msprop:Generator_TableVarName="tableView_Total" msprop:Generator_TablePropName="View_Total" msprop:Generator_RowDeletingName="View_TotalRowDeleting" msprop:Generator_RowChangingName="View_TotalRowChanging" msprop:Generator_RowEvHandlerName="View_TotalRowChangeEventHandler" msprop:Generator_RowDeletedName="View_TotalRowDeleted" msprop:Generator_UserTableName="View_Total" msprop:Generator_RowChangedName="View_TotalRowChanged" msprop:Generator_RowEvArgName="View_TotalRowChangeEvent" msprop:Generator_RowClassName="View_TotalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Anul" msprop:Generator_ColumnVarNameInTable="columnAnul" msprop:Generator_ColumnPropNameInRow="Anul" msprop:Generator_ColumnPropNameInTable="AnulColumn" msprop:Generator_UserColumnName="Anul" type="xs:int" minOccurs="0" />
+              <xs:element name="NumeClient" msprop:Generator_ColumnVarNameInTable="columnNumeClient" msprop:Generator_ColumnPropNameInRow="NumeClient" msprop:Generator_ColumnPropNameInTable="NumeClientColumn" msprop:Generator_UserColumnName="NumeClient" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nrc" msprop:Generator_ColumnVarNameInTable="columnNrc" msprop:Generator_ColumnPropNameInRow="Nrc" msprop:Generator_ColumnPropNameInTable="NrcColumn" msprop:Generator_UserColumnName="Nrc" type="xs:int" minOccurs="0" />
+              <xs:element name="IdImpozit" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdImpozit" msprop:Generator_ColumnPropNameInRow="IdImpozit" msprop:Generator_ColumnPropNameInTable="IdImpozitColumn" msprop:Generator_UserColumnName="IdImpozit" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_ContinutImpozit" msprop:Generator_TableClassName="View_ContinutImpozitDataTable" msprop:Generator_TableVarName="tableView_ContinutImpozit" msprop:Generator_TablePropName="View_ContinutImpozit" msprop:Generator_RowDeletingName="View_ContinutImpozitRowDeleting" msprop:Generator_RowChangingName="View_ContinutImpozitRowChanging" msprop:Generator_RowEvHandlerName="View_ContinutImpozitRowChangeEventHandler" msprop:Generator_RowDeletedName="View_ContinutImpozitRowDeleted" msprop:Generator_UserTableName="View_ContinutImpozit" msprop:Generator_RowChangedName="View_ContinutImpozitRowChanged" msprop:Generator_RowEvArgName="View_ContinutImpozitRowChangeEvent" msprop:Generator_RowClassName="View_ContinutImpozitRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImpozitAnual" msprop:Generator_ColumnVarNameInTable="columnImpozitAnual" msprop:Generator_ColumnPropNameInRow="ImpozitAnual" msprop:Generator_ColumnPropNameInTable="ImpozitAnualColumn" msprop:Generator_UserColumnName="ImpozitAnual" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nrc" msprop:Generator_ColumnVarNameInTable="columnNrc" msprop:Generator_ColumnPropNameInRow="Nrc" msprop:Generator_ColumnPropNameInTable="NrcColumn" msprop:Generator_UserColumnName="Nrc" type="xs:int" minOccurs="0" />
+              <xs:element name="Valoare" msprop:Generator_ColumnVarNameInTable="columnValoare" msprop:Generator_ColumnPropNameInRow="Valoare" msprop:Generator_ColumnPropNameInTable="ValoareColumn" msprop:Generator_UserColumnName="Valoare" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SpImagine" msprop:Generator_ColumnVarNameInTable="columnSpImagine" msprop:Generator_ColumnPropNameInRow="SpImagine" msprop:Generator_ColumnPropNameInTable="SpImagineColumn" msprop:Generator_UserColumnName="SpImagine" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdImpozit" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdImpozit" msprop:Generator_ColumnPropNameInRow="IdImpozit" msprop:Generator_ColumnPropNameInTable="IdImpozitColumn" msprop:Generator_UserColumnName="IdImpozit" type="xs:int" minOccurs="0" />
+              <xs:element name="IdContinut" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdContinut" msprop:Generator_ColumnPropNameInRow="IdContinut" msprop:Generator_ColumnPropNameInTable="IdContinutColumn" msprop:Generator_UserColumnName="IdContinut" type="xs:int" minOccurs="0" />
+              <xs:element name="IdTipProprietate" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdTipProprietate" msprop:Generator_ColumnPropNameInRow="IdTipProprietate" msprop:Generator_ColumnPropNameInTable="IdTipProprietateColumn" msprop:Generator_UserColumnName="IdTipProprietate" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
